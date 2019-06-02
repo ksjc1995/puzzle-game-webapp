@@ -65,13 +65,13 @@ if (process.env.NODE_ENV === 'production') {
         NODE_ENV: '"production"'
       }
     }),
-    new UglifyJsPlugin({
+   new UglifyJsPlugin({
       uglifyOptions: {        
         ecma: 8      
       }
     }),
     new webpack.LoaderOptionsPlugin({
       minimize: true
-    }),
+    })
   ])
 }
