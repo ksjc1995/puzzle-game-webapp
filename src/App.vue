@@ -5,18 +5,12 @@
 </template>
 
 <script>
-import GuessGame from './GuessGame';
+import GuessGame from "./GuessGame";
 export default {
-  name: 'app',
-  components:{
+  name: "app",
+  components: {
     GuessGame
-  },
-  data () {
-    return {
-    }
   }
-}
+};
 </script>
 
-<style scoped>
-</style>
